@@ -1,11 +1,19 @@
--e name: CI
+name: CI
+
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Check markdown
-        run: find . -name '*.md' | head -5
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check markdown files exist
+        run: |
+          test -f architectures/01-rag-regulated.md
+          test -f architectures/02-agentic-workflow.md
+          test -f playbooks/discovery.md
