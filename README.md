@@ -2,6 +2,8 @@
 
 ![Architecture](./docs/architecture.png)
 
+> Reference architecture used across customer deployments.
+
 [![CI](https://github.com/cmangun/fde-reference-architectures/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/fde-reference-architectures/actions/workflows/ci.yml)
 [![Docs](https://img.shields.io/badge/docs-markdown-blue?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)]()
