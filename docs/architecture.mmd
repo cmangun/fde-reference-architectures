@@ -1,0 +1,9 @@
+flowchart LR
+  Users([Users]) --> FE[Frontend]
+  FE --> API[API Gateway]
+  API --> Policy[Governance]
+  Policy --> RAG[RAG Service]
+  RAG --> VDB[(Vector DB)]
+  RAG --> Docs[(Doc Store)]
+  RAG --> LLM([LLM])
+  Policy --> Audit[(Audit)]
