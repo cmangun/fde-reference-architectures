@@ -12,7 +12,7 @@ Reference architectures and engagement playbooks for production AI deployments.
 
 ---
 
-## 🚀 Use in 60 Seconds
+## Use in 60 Seconds
 
 ```bash
 git clone https://github.com/cmangun/fde-reference-architectures.git
@@ -27,7 +27,7 @@ cp -r architectures/ /path/to/customer/docs/
 
 ---
 
-## 📊 Customer Value
+## Customer Value
 
 This pattern typically delivers:
 - **2x faster** architecture reviews (pre-validated patterns)
